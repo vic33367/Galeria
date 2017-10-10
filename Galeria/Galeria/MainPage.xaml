@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Galeria"
+             x:Class="Galeria.MainPage">
+    <ContentPage >
+        <ScrollView BackgroundColor="DarkCyan" VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout BackgroundColor="DarkCyan" >
+                <Image x:Name="img1" Source="https://ugc.kn3.net/i/origin/http://2.bp.blogspot.com/-Pnfh6aKk1gg/TmbM1dKA86I/AAAAAAAAk4s/QRd3sDYIYkM/s1600/chevrolet-corvette-c6-1920x1200.jpg"/>
+                <Button x:Name="btn1" Text="Like" Clicked="btn1_Clicked"/>
+                <Button x:Name="dbtn1" Text="DisLike" Clicked="dbtn1_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage >
+        <ScrollView BackgroundColor="DarkCyan" VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout BackgroundColor="DarkCyan" >
+                <Image x:Name="img2" Source="http://www.reginavelasquez.com/wp-content/uploads/cielo-atardecer.jpg"/>
+                <Button x:Name="btn2" Text="Like" Clicked="btn2_Clicked"/>
+                <Button x:Name="dbtn2" Text="DisLike" Clicked="dbtn1_Clicked_1"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage >
+        <ScrollView BackgroundColor="DarkCyan"  VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout BackgroundColor="DarkCyan" >
+                <Image x:Name="img3" Source="http://chicasennewyork.com/wp-content/uploads/2016/05/portada-1050x503.png"/>
+                <Button x:Name="btn3" Text="Like" Clicked="btn3_Clicked"/>
+                <Button x:Name="dbtn3" Text="DisLike" Clicked="dbtn1_Clicked_2"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage >
+        <ScrollView BackgroundColor="DarkCyan"  VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout BackgroundColor="DarkCyan" >
+                <Image x:Name="img4" Source="https://estaticos.muyinteresante.es/uploads/images/article/5874a3b25bafe8e0b392d719/origen-luna_0.jpg"/>
+                <Button x:Name="btn4" Text="Like" Clicked="btn4_Clicked"/>
+                <Button x:Name="dbtn4" Text="DisLike" Clicked="dbtn1_Clicked_3"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage >
+        <ScrollView BackgroundColor="DarkCyan"  VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout BackgroundColor="DarkCyan" >
+                <Image x:Name="img5" Source="http://comienzohoy.com/wp-content/uploads/2015/07/sol2.jpg"/>
+                <Button x:Name="btn5" Text="Like" Clicked="btn5_Clicked"/>
+                <Button x:Name="dbtn5" Text="DisLike" Clicked="dbtn1_Clicked_4"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage >
+        <ScrollView BackgroundColor="DarkCyan"  VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout BackgroundColor="DarkCyan" >
+                <Image x:Name="img6" Source="http://elcarromascarodelmundo.com/wp-content/uploads/2016/07/descargar-imagenes-de-autos-deportivos-azul-1.png"/>
+                <Button x:Name="btn6" Text="Like" Clicked="btn6_Clicked"/>
+                <Button x:Name="dbtn6" Text="DisLike" Clicked="dbtn1_Clicked_5"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage >
+        <ScrollView BackgroundColor="DarkCyan"  VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout BackgroundColor="DarkCyan" >
+                <Image x:Name="img7" Source="https://i.pinimg.com/originals/8f/c1/9f/8fc19fa3c945d83d091efa7ab9a22ec7.jpg"/>
+                <Button x:Name="btn7" Text="Like" Clicked="btn7_Clicked"/>
+                <Button x:Name="dbtn7" Text="DisLike" Clicked="dbtn1_Clicked_6"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage >
+        <ScrollView BackgroundColor="DarkCyan"  VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout BackgroundColor="DarkCyan" >
+                <Image x:Name="img8" Source="https://i0.wp.com/farm3.static.flickr.com/2450/3844704088_88c97010ab.jpg"/>
+                <Button x:Name="btn8" Text="Like" Clicked="btn8_Clicked"/>
+                <Button x:Name="dbtn8" Text="DisLike" Clicked="dbtn1_Clicked_7"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage >
+        <ScrollView BackgroundColor="DarkCyan"  VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout BackgroundColor="DarkCyan" >
+                <Image x:Name="img9" Source="http://neoauto.com/noticias/wp-content/uploads/2016/08/Donkervoort-D8-GTO-RS-NeoAuto.com_.jpg"/>
+                <Button x:Name="btn9" Text="Like" Clicked="btn9_Clicked"/>
+                <Button x:Name="dbtn9" Text="DisLike" Clicked="dbtn1_Clicked_8"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage >
+        <ScrollView BackgroundColor="DarkCyan"  VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout BackgroundColor="DarkCyan" >
+                <Image x:Name="img10" Source="http://wradio.com.mx/radio/imagenes/2016/09/22/album/1474568029_688906_1474568676_album_normal.jpg"/>
+                <Button x:Name="btn10" Text="Like" Clicked="btn10_Clicked"/>
+                <Button x:Name="dbtn10" Text="DisLike" Clicked="dbtn1_Clicked_9"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage BackgroundColor="Aquamarine">
+        <StackLayout BackgroundColor="Aquamarine" VerticalOptions="Center"  HorizontalOptions="Center">
+            <Label Text="Likes Obtenidos:" FontSize="Large" TextColor="White" x:Name="lbl1"/>
+            <Label Text="DisLikes Obtenidos:" FontSize="Large" TextColor="White"  x:Name="lbl2"/>
+            <Button Text="Refrescar"  Clicked="btn1_Clicked_1" x:Name="btnR"/>
+        </StackLayout>
+    </ContentPage>
+
+</CarouselPage>
